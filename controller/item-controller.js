@@ -76,7 +76,7 @@ const updateItem = async (req, res) => {
 
     if (req.file) {
       const imagePath = `http://localhost:${port}/${req.file.path}`;
-      updateItem = {
+      updatedData = {
         ...updatedData,
         barang: imagePath,
       };
