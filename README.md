@@ -1,12 +1,12 @@
 # HOW TO RUN
 
-- ### install dependecies \
+- ### install dependecies
 
   `npm install`
 
-- ### migration \
+- ### migration
 
   `npx sequelize-cli db:migrate`
 
-- ### run app \
+- ### run app
   `npm start`
